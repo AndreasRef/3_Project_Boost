@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4698544702705838}
   - component: {fileID: 54655427907533906}
   - component: {fileID: 114283184738377608}
-  - component: {fileID: 82260674829743732}
+  - component: {fileID: 82618014161966220}
   m_Layer: 0
   m_Name: Rocket Ship
   m_TagString: Untagged
@@ -385,19 +385,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!82 &82260674829743732
+--- !u!82 &82618014161966220
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1171920887735740}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1936bb64be3a745459b28435672bf101, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.633
-  m_Pitch: 0.8
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -440,7 +440,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -464,7 +464,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
 --- !u!114 &114283184738377608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -478,6 +478,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rcsThrust: 150
   mainThrust: 800
+  mainEngine: {fileID: 8300000, guid: 57feff3d8f797457784deb28c9c83cf5, type: 3}
+  success: {fileID: 8300000, guid: 7a06330681ab442fa8ef63002f817adc, type: 3}
+  death: {fileID: 8300000, guid: 7587ce6cd861a40c6802c0341f25c2df, type: 3}
 --- !u!135 &135766018010255660
 SphereCollider:
   m_ObjectHideFlags: 1
