@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rcsThrust: 100
-  mainThrust: 1000
+  mainThrust: 800
 --- !u!135 &135766018010255660
 SphereCollider:
   m_ObjectHideFlags: 1
